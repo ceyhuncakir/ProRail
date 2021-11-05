@@ -128,3 +128,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 sap_storing_data_hu_project.csv
+model2.ipynb
