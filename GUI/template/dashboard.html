@@ -2,13 +2,13 @@
 <html>
 
 <head>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
 </head>
 
 <div class="wrapper">
   <nav>
     <div class="content">
-      <div class="logo"><img src="images/prorail.png" id="logo"></img></div>
+      <div class="logo"><img src="{{ url_for('static',filename='images/prorail.png') }}" id="logo"></img></div>
     </div>
   </nav>
 </div>
@@ -18,25 +18,24 @@
       <label class="label item_1">Feature_1</label>
       <input class="feature item_1" type="text" name="size" placeholder="voer hier de feature waardes in"></input>
       <label class="label item_2">Feature_2</label>
-      <input class="feature item_2" type="text" name="size" placeholder="voer hier de feature waardes in"></input>
+      <input class="feature item_2" type="text" name="feature" placeholder="voer hier de feature waardes in"></input>
       <label class="label item_3">Feature_3</label>
-      <input class="feature item_3" type="text" name="size" placeholder="voer hier de feature waardes in"></input>
+      <input class="feature item_3" type="text" name="feature" placeholder="voer hier de feature waardes in"></input>
       <label class="label item_4">Feature_4</label>
-      <input class="feature item_4" type="text" name="size" placeholder="voer hier de feature waardes in"></input>
+      <input class="feature item_4" type="text" name="feature" placeholder="voer hier de feature waardes in"></input>
       <label class="label item_5">Feature_5</label>
-      <input class="feature item_5" type="text" name="size" placeholder="voer hier de feature waardes in"></input>
+      <input class="feature item_5" type="text" name="feature" placeholder="voer hier de feature waardes in"></input>
       <label class="label item_6">Feature_5</label>
-      <input class="feature item_6" type="text" name="size" placeholder="voer hier de feature waardes in"></input>
+      <input class="feature item_6" type="text" name="feature" placeholder="voer hier de feature waardes in"></input>
       <input class="button predict" type="submit" value="Voorspel"></input>
   </form>
 
 
 
   <label class="label_voorspelling">Voorspelling</label>
-  <div class="voorspelling"></div>
+  <div class="voorspelling"><p style="font-size: 40px; margin-left: 110px; margin-top: 5px;"> {{ prediction }} </p></div>
   <label class="label_accuracy">nauwkeurigheid</label>
   <div class="accuracy"></div>
-
   <div class="line"></div>
 
   <div class="disclaimer_wrapper">
