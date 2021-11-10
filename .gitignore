@@ -129,3 +129,6 @@ dmypy.json
 .pyre/
 sap_storing_data_hu_project.csv
 model2.ipynb
+ceyhun_waddup.pkl
+ceyhun_waddup.sav
+linear_reg.pkl
