@@ -68,52 +68,18 @@ nav .content .links{
 }
 
 .form_container .feature {
-  margin-top: 100px;
+  margin-top: 180px;
   margin-left: 50px;
   border-radius: 10px;
-  height: 55px;
+  height: 60px;
+  width: 935px;
   border-style: solid;
 }
 
 .form_container .label.item_1 {
   position: absolute;
-  top: 64px;
+  top: 140px;
   left: 55px;
-  font-size: 14px;
-}
-
-.form_container .label.item_2 {
-  position: absolute;
-  top: 64px;
-  left: 385px;
-  font-size: 14px;
-}
-
-.form_container .label.item_3 {
-  position: absolute;
-  top: 64px;
-  left: 710px;
-  font-size: 14px;
-}
-
-.form_container .label.item_4 {
-  position: absolute;
-  top: 220px;
-  left: 55px;
-  font-size: 14px;
-}
-
-.form_container .label.item_5 {
-  position: absolute;
-  top: 220px;
-  left: 385px;
-  font-size: 14px;
-}
-
-.form_container .label.item_6 {
-  position: absolute;
-  top: 220px;
-  left: 710px;
   font-size: 14px;
 }
 
@@ -121,7 +87,7 @@ nav .content .links{
   position: absolute;
   width: 935px;
   height: 55px;
-  top: 350px;
+  top: 280px;
   right: 15px;
   background-color: #DC143C;
   border-radius: 10px;
@@ -144,9 +110,9 @@ input::placeholder {
 .voorspelling {
   background-color: white;
   position: absolute;
-  width: 380px;
-  height: 70px;
-  top: 580px;
+  width: 935px;
+  height: 120px;
+  top: 523px;
   left: 320px;
   border-radius: 10px;
   border-style: solid;
@@ -157,9 +123,9 @@ input::placeholder {
 .label_voorspelling {
   font-size: 20px;
   position: absolute;
-  top: 540px;
+  top: 480px;
   color: black;
-  left: 320px;
+  left: 325px;
 }
 
 .accuracy {
